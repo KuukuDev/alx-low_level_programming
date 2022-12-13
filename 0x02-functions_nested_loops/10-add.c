@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * add - add two integers
+ * @a: two integer arguments
+ * @b: two integer arguments
+ * Return: Sum
  */
 
 int add(int a, int b)
