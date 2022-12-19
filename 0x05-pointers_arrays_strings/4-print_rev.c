@@ -20,7 +20,7 @@ void print_rev(char *s)
 	s--; /* go back to character begore null character */
 
 	/* print string reversed */
-	for (i = len; i > 0; i++)
+	for (i = len; i > 0; i--)
 	{
 		_putchar(*s);
 		s--;
