@@ -19,7 +19,7 @@ int check(int a, int b)
 	}
 	else
 	{
-		return (checks(a + 1, b));
+		return (check(a + 1, b));
 	}
 }
 
